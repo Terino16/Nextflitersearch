@@ -22,10 +22,6 @@ const page = () => {
         <p className="font-bold">As an engineering student, I am embarking on a fascinating journey into the world of innovation, problem-solving, and technological advancement.
          Most of the Engineers are problem-solvers at heart, seeking innovative solutions to complex challenges. It helps me learn the way  to approach problems analytically, break them down into manageable components, and apply critical thinking to devise effective and efficient solutions.
         Curenlty enrolled in VIT Vellore in CSE branch and will be graduating in 2025. </p>
-        <p className="text-white pt-2 font-bold">2.Intermediate </p>
-        <p className="font-bold"> While in Class 12 I was preparing for JEE (Entrance exam for most Governament prestigious Colleges). So during that time I was enrolled into Vidyamandir school in Kota Rajasthan and preparing for JEE in a coaching institute Called Resonance. 
-          After the exam got over I got a good rank but was not sufficient to get a good College in with CSE in it. So thats When VIT happened, I gave VITEE for VIT and  got a rank of 6k and eventually got into VIT
-        </p>
       </span>
       <span>
         <h2 className="xl:text-xl mobile:text-sm font-bold text-white pt-3 ">
