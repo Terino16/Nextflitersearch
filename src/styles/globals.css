@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  
+}
+
+body{
+  background-color: #000000;
+opacity: 1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22a%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%2320223d%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%2357596d%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%2340437a%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%236f729b%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22c%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%235f65b6%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23878bc8%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22d%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%237f86f3%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%239fa4f6%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22e%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%239ba0f6%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23b4b7f8%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22f%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23b7baf9%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23c9cbfa%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22g%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23d3d3fc%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23dedefc%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22h%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23efedff%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23f3f1ff%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath d=%22M0 0h2000v1400H0z%22%2F%3E%3Cpath d=%22M0 155c111.74 3.59 223.478 7.181 339 9 115.522 1.819 234.826 1.866 340 3s196.218 3.353 307 5c110.782 1.647 241.302 2.72 356-5 114.698-7.72 213.572-24.232 339-25 125.428-.768 277.408 14.21 335 19 57.592 4.79 20.796-.605 24-6l-40 1245H0Z%22 fill=%22url(%23a)%22%2F%3E%3Cpath d=%22M0 311c107.407-11.722 214.815-23.445 325-17s223.149 31.057 333 31c109.851-.057 216.59-24.783 333-27 116.41-2.217 242.491 18.076 349 19 106.509.924 193.445-17.52 313-26s271.73-6.994 335-2c63.27 4.994 37.635 13.497 52 22l-40 1089H0Z%22 fill=%22url(%23b)%22%2F%3E%3Cpath d=%22M0 466c93.99 7.075 187.978 14.15 309 14 121.022-.15 269.075-7.522 381-12 111.925-4.478 187.72-6.062 291-10 103.28-3.938 234.044-10.23 351-9 116.956 1.23 220.104 9.985 343 10 122.896.015 265.542-8.71 323-9 57.458-.29 29.73 7.855 42 16l-40 934H0Z%22 fill=%22url(%23c)%22%2F%3E%3Cpath d=%22M0 622c104.06-2.26 208.12-4.52 321-4 112.88.52 234.58 3.823 346 0 111.42-3.823 212.56-14.77 329-10s248.18 25.258 360 28c111.82 2.742 203.72-12.262 318-16 114.28-3.738 250.937 3.79 309 6 58.063 2.21 37.532-.895 57-4l-40 778H0Z%22 fill=%22url(%23d)%22%2F%3E%3Cpath d=%22M0 777c124.422-5.884 248.844-11.768 356-17 107.156-5.232 197.045-9.813 295-5 97.955 4.813 203.974 19.019 324 27 120.026 7.981 254.059 9.737 362 2s189.792-24.968 312-28 284.774 8.134 350 14 33.113 6.433 41 7l-40 623H0Z%22 fill=%22url(%23e)%22%2F%3E%3Cpath d=%22M0 933c120.36-.548 240.72-1.097 345-5s192.478-11.162 304-12c111.522-.838 246.366 4.745 367 12 120.634 7.255 227.056 16.182 333 15 105.944-1.182 211.408-12.472 339-10 127.592 2.472 277.312 18.706 333 21 55.688 2.294 17.344-9.353 19-21l-40 467H0Z%22 fill=%22url(%23f)%22%2F%3E%3Cpath d=%22M0 1088c100.6.412 201.199.823 310 7 108.801 6.177 225.805 18.12 337 11 111.195-7.12 216.583-33.3 335-36 118.417-2.7 249.864 18.08 355 30 105.136 11.92 183.96 14.978 309 5 125.04-9.978 296.297-32.994 363-38 66.703-5.006 28.851 7.997 31 21l-40 312H0Z%22 fill=%22url(%23g)%22%2F%3E%3Cpath d=%22M0 1244c107.991 1.412 215.983 2.824 323 8s213.06 14.117 325 5 229.774-36.291 347-33c117.226 3.291 233.844 37.047 337 39 103.156 1.953 192.85-27.897 324-34 131.15-6.103 303.757 11.542 368 18s20.121 1.729 16-3l-40 156H0Z%22 fill=%22url(%23h)%22%2F%3E%3C%2Fsvg%3E");
+  }
+  
+
+
